@@ -97,8 +97,3 @@ def tcp_ports():
             if c.type == socket.SOCK_STREAM and c.status == psutil.CONN_LISTEN:
                 tcp_connections.append(c)
     return tcp_connections
-
-
-if __name__ == "__main__":
-    app = TableApp()
-    app.run()

@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "ports-list"
-version = "0.1.0"
+name = "portslist"
+version = "0.1.2"
 description = "List listening ports on terminal"
 authors = ["lethe <lethe30003000@gmail.com>"]
 
